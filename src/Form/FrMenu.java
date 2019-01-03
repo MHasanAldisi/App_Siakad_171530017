@@ -423,7 +423,9 @@ public class FrMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_mnDataMahasiswaActionPerformed
 
     private void mnLapMahasiswaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnLapMahasiswaActionPerformed
-        // TODO add your handling code here:
+        IfrLapMahasiswa fr = new IfrLapMahasiswa();
+        jpMenu.add(fr);
+        fr.setVisible(true);
     }//GEN-LAST:event_mnLapMahasiswaActionPerformed
 
     private void mnProdiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnProdiActionPerformed
